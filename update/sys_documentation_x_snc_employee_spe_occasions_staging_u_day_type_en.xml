@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_day_type" label="Day type" language="en" table="x_snc_employee_spe_occasions_staging">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_day_type</element>
+            <help/>
+            <hint/>
+            <label>Day type</label>
+            <language>en</language>
+            <name>x_snc_employee_spe_occasions_staging</name>
+            <plural>Day types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-05 23:47:41</sys_created_on>
+            <sys_id>c6ba8f2edb35b700d7b55995ce96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Day type</sys_name>
+            <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_employee_spe_occasions_staging_u_day_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-05 23:47:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

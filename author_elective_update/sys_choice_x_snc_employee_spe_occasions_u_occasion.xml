@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_occasion" table="x_snc_employee_spe_occasions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_occasion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Birthday</label>
+            <language>en</language>
+            <name>x_snc_employee_spe_occasions</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-06 23:19:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1eddc407db35f700d7b55995ce96193b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-07 13:06:26</sys_updated_on>
+            <value>birthday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_occasion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work Anniversary</label>
+            <language>en</language>
+            <name>x_snc_employee_spe_occasions</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-06 23:19:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eaddc407db35f700d7b55995ce961940</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-07 13:06:26</sys_updated_on>
+            <value>work anniversary</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_occasion</element>
+            <name>x_snc_employee_spe_occasions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-06 15:40:49</sys_created_on>
+            <sys_id>84e4a6f2dbfdb700d7b55995ce96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_occasion</sys_name>
+            <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+            <sys_update_name>sys_choice_x_snc_employee_spe_occasions_u_occasion</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-06 15:40:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

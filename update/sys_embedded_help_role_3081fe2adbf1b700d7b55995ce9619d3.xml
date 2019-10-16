@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_employee_spe.occasions_user" name="x_snc_employee_spe.occasions_user">a481fe2adbf1b700d7b55995ce9619ce</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-05 21:57:33</sys_created_on>
+        <sys_id>3081fe2adbf1b700d7b55995ce9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a481fe2adbf1b700d7b55995ce9619ce</sys_name>
+        <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3081fe2adbf1b700d7b55995ce9619d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-05 21:57:33</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

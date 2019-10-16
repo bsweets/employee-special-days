@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="employee_email" label="Employee email" language="en" table="x_snc_employee_spe_occasions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employee_email</element>
+            <help/>
+            <hint/>
+            <label>Employee email</label>
+            <language>en</language>
+            <name>x_snc_employee_spe_occasions</name>
+            <plural>Employee emails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-07 12:57:57</sys_created_on>
+            <sys_id>4039cfc3db7df700d7b55995ce96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employee email</sys_name>
+            <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_employee_spe_occasions_employee_email_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-07 12:57:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

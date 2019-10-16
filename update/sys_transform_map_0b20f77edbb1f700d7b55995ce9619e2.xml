@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Import Historical Occasion Data</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// If the source data does not have a employee_email field, 
+// create the target email address from the Employee field value.  Email addresses 
+// have the format firstname.lastname@example.com.  Convert the u_employee 
+// value to lowercase.  Replace the space with a . and concatenate with 
+// @example.com
+if(!("employee_email" in source)){
+	var name = source.u_employee.toLowerCase();
+	target.employee_email = name.replace(" ", ".") + "@example.com";
+}
+
+})(source, target, map, log, action==="update");
+
+
+]]></script>
+        <source_table>x_snc_employee_spe_occasions_staging</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 21:19:43</sys_created_on>
+        <sys_id>0b20f77edbb1f700d7b55995ce9619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Import Historical Occasion Data</sys_name>
+        <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_update_name>sys_transform_map_0b20f77edbb1f700d7b55995ce9619e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-07 14:57:12</sys_updated_on>
+        <target_table>x_snc_employee_spe_occasions</target_table>
+    </sys_transform_map>
+</record_update>

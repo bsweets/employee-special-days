@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Occasions" max_length="40" name="x_snc_employee_spe_occasions" type="collection">
+        <element label="Employee email" mandatory="true" max_length="120" name="employee_email" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="birthday" label="Special occasion" mandatory="true" max_length="40" name="u_occasion" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Birthday" sequence="0" value="birthday"/>
+                <element inactive_on_update="false" label="Work Anniversary" sequence="1" value="work anniversary"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Occasion date" mandatory="true" max_length="40" name="u_occasion_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_employee"/>
+        </index>
+    </element>
+</database>
