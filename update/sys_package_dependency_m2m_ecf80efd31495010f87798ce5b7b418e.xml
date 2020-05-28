@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="System Import Sets" source="com.glide.system_import_set">7689ff80dbe13300651e5011ce96196a</dependency>
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">7e6f5795e1301010a8db006b6ebc7d60</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-05 23:47:41</sys_created_on>
-        <sys_id>06ba8f2edb35b700d7b55995ce961972</sys_id>
+        <sys_id>ecf80efd31495010f87798ce5b7b418e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_updated_by>admin</sys_updated_by>
