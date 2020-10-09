@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Occasions" max_length="40" name="x_snc_employee_spe_occasions" type="collection">
+    <element label="Occasions" max_length="40" name="x_snc_employee_spe_occasions" sizeclass="1" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Employee email" mandatory="true" max_length="120" name="employee_email" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" type="reference"/>

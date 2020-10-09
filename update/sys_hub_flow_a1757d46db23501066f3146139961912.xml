@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Check for birthdays happening today to send a special birthday greeting</description>
+        <internal_name>send_birthday_greetings</internal_name>
+        <label_cache>[{"name":"d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.first_name","label":"2➛Occasions Record➛Employee➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.manager.email","label":"2➛Occasions Record➛Employee➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.email","label":"2➛Occasions Record➛Employee➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"ff32c6e3-79bd-46aa-83ed-e3f1605c9fc5.email","label":"3➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item","label":"2➛Occasions Record","reference":"x_snc_employee_spe_occasions","reference_display":"Occasions Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c866c649-65a7-4d3d-8f32-27a69d5c9535.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c866c649-65a7-4d3d-8f32-27a69d5c9535.Table","label":"1➛Occasions Table","reference":"x_snc_employee_spe_occasions","reference_display":"Occasions Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c866c649-65a7-4d3d-8f32-27a69d5c9535.Records","label":"1➛Occasions Records","reference":"x_snc_employee_spe_occasions","reference_display":"Occasions Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e855b35e-b552-48fa-809c-5d87dcd9fe21.email","label":"4➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee","label":"2➛Occasions Record➛Employee","reference":"sys_user","reference_display":"Employee","type":"reference","base_type":"reference","parent_table_name":"x_snc_employee_spe_occasions","column_name":"u_employee"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Send Birthday Greetings</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 20:30:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a1757d46db23501066f3146139961912</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Send Birthday Greetings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_update_name>sys_hub_flow_a1757d46db23501066f3146139961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1757d46db23501066f3146139961912"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a1757d46db23501066f3146139961912"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=a1757d46db23501066f3146139961912^sys_idNOT IN445cb58adb23501066f31461399619ce,4c5cb58adb23501066f31461399619c9,905cb58adb23501066f31461399619d7,b94282cedb23501066f3146139961983"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">485cb58adb23501066f31461399619cd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>445cb58adb23501066f31461399619ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>d39400f9-9a5e-49ca-a6f2-c22833b8d7f7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=445cb58adb23501066f31461399619ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=445cb58adb23501066f31461399619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>445cb58adb23501066f31461399619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>4c5cb58adb23501066f31461399619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c866c649-65a7-4d3d-8f32-27a69d5c9535.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>4c5cb58adb23501066f31461399619c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>c866c649-65a7-4d3d-8f32-27a69d5c9535</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c5cb58adb23501066f31461399619c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c5cb58adb23501066f31461399619c9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>005cb58adb23501066f31461399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>u_occasion=birthday^u_occasion_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c5cb58adb23501066f31461399619c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>c05cb58adb23501066f31461399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>x_snc_employee_spe_occasions</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <order>3</order>
+        <parent_ui_id>d39400f9-9a5e-49ca-a6f2-c22833b8d7f7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>905cb58adb23501066f31461399619d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>ff32c6e3-79bd-46aa-83ed-e3f1605c9fc5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=905cb58adb23501066f31461399619d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>905cb58adb23501066f31461399619d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>185cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>x_snc_employee_spe_occasions</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>905cb58adb23501066f31461399619d7</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>545cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=905cb58adb23501066f31461399619d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>d45cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:7b4bb099-1069-40bf-b45a-f4418d9b0b2a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:7b4bb099-1069-40bf-b45a-f4418d9b0b2a}}"&gt;2➛Occasions Record➛Employee➛First name&lt;button id="transform_function_facade_7b4bb099-1069-40bf-b45a-f4418d9b0b2a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;May your birthday be the start of a year filled with good luck, good health, and much happiness!&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>d05cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>105cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Happy birthday, {{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>145cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>985cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>5c5cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send SMS">027499be7333001099792f163cf6a7a7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <order>4</order>
+        <parent_ui_id>d39400f9-9a5e-49ca-a6f2-c22833b8d7f7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:26:24</sys_created_on>
+        <sys_id>b94282cedb23501066f3146139961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>e855b35e-b552-48fa-809c-5d87dcd9fe21</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b94282cedb23501066f3146139961983"/>
+    <sys_element_mapping action="delete_multiple" query="id=b94282cedb23501066f3146139961983"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>b94282cedb23501066f3146139961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:26:24</sys_created_on>
+        <sys_id>794282cedb23501066f3146139961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7</table>
+        <value>Happy birthday, {{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.first_name}}! Have a great day!</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recipients</field>
+        <id>b94282cedb23501066f3146139961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:26:24</sys_created_on>
+        <sys_id>3d4282cedb23501066f3146139961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee}} </value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a1757d46db23501066f3146139961912^sys_idNOT IN845cb58adb23501066f31461399619c2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>845cb58adb23501066f31461399619c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=845cb58adb23501066f31461399619c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>845cb58adb23501066f31461399619c2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>485cb58adb23501066f31461399619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>1970-01-01 01:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a1757d46db23501066f3146139961912^sys_idNOT INa1757d46db23501066f3146139961914"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a1757d46db23501066f3146139961912</id>
+        <name>Send Birthday Greetings</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 20:30:25</sys_created_on>
+        <sys_id>a1757d46db23501066f3146139961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 20:30:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a1757d46db23501066f3146139961912^sys_idNOT IN4c5cb58adb23501066f31461399619c9,905cb58adb23501066f31461399619d7,b94282cedb23501066f3146139961983"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>4c5cb58adb23501066f31461399619c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>c866c649-65a7-4d3d-8f32-27a69d5c9535</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c5cb58adb23501066f31461399619c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c5cb58adb23501066f31461399619c9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>005cb58adb23501066f31461399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>u_occasion=birthday^u_occasion_dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c5cb58adb23501066f31461399619c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>c05cb58adb23501066f31461399619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>x_snc_employee_spe_occasions</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <order>3</order>
+        <parent_ui_id>d39400f9-9a5e-49ca-a6f2-c22833b8d7f7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>905cb58adb23501066f31461399619d7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>ff32c6e3-79bd-46aa-83ed-e3f1605c9fc5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=905cb58adb23501066f31461399619d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>905cb58adb23501066f31461399619d7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>185cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value>x_snc_employee_spe_occasions</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>905cb58adb23501066f31461399619d7</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>545cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <value/>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=905cb58adb23501066f31461399619d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>d45cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:7b4bb099-1069-40bf-b45a-f4418d9b0b2a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:7b4bb099-1069-40bf-b45a-f4418d9b0b2a}}"&gt;2➛Occasions Record➛Employee➛First name&lt;button id="transform_function_facade_7b4bb099-1069-40bf-b45a-f4418d9b0b2a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;May your birthday be the start of a year filled with good luck, good health, and much happiness!&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>d05cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.manager.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>105cb58adb23501066f31461399619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Happy birthday, {{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>145cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>985cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>905cb58adb23501066f31461399619d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>5c5cb58adb23501066f31461399619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send SMS">027499be7333001099792f163cf6a7a7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <order>4</order>
+        <parent_ui_id>d39400f9-9a5e-49ca-a6f2-c22833b8d7f7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:26:24</sys_created_on>
+        <sys_id>b94282cedb23501066f3146139961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>e855b35e-b552-48fa-809c-5d87dcd9fe21</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b94282cedb23501066f3146139961983"/>
+    <sys_element_mapping action="delete_multiple" query="id=b94282cedb23501066f3146139961983"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>b94282cedb23501066f3146139961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:26:24</sys_created_on>
+        <sys_id>794282cedb23501066f3146139961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7</table>
+        <value>Happy birthday, {{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.first_name}}! Have a great day!</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>recipients</field>
+        <id>b94282cedb23501066f3146139961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:26:24</sys_created_on>
+        <sys_id>3d4282cedb23501066f3146139961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7</table>
+        <value>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee}} </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a1757d46db23501066f3146139961912^sys_idNOT IN445cb58adb23501066f31461399619ce"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">485cb58adb23501066f31461399619cd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send Birthday Greetings">a1757d46db23501066f3146139961912</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>445cb58adb23501066f31461399619ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:26:24</sys_updated_on>
+        <ui_id>d39400f9-9a5e-49ca-a6f2-c22833b8d7f7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=445cb58adb23501066f31461399619ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=445cb58adb23501066f31461399619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>445cb58adb23501066f31461399619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>4c5cb58adb23501066f31461399619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{c866c649-65a7-4d3d-8f32-27a69d5c9535.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a1757d46db23501066f3146139961912^sys_idNOT IN905cb58adb23501066f31461399619e9"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a1757d46db23501066f3146139961912</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{d39400f9-9a5e-49ca-a6f2-c22833b8d7f7.item.u_employee.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-30 21:00:21</sys_created_on>
+        <sys_id>905cb58adb23501066f31461399619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-30 21:00:21</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7b4bb099-1069-40bf-b45a-f4418d9b0b2a</ui_id>
+    </sys_hub_pill_compound>
+</record_update>
