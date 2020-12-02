@@ -18,19 +18,19 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">92171b86db13101066f3146139961942</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">6ffbc9a71b102010a047ca641a4bcbbc</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-05 23:47:40</sys_created_on>
-        <sys_id>f3057946db23501066f314613996193b</sys_id>
+        <sys_id>51df20961bf02010a047ca641a4bcbd5</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>occasions_staging</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name>sys_db_object_f3057946db23501066f314613996193b</sys_update_name>
+        <sys_update_name>sys_db_object_51df20961bf02010a047ca641a4bcbd5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-06-06 23:30:33</sys_updated_on>
         <update_access>false</update_access>

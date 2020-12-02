@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="subject" label="Subject" language="en" table="var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>subject</element>
+            <help/>
+            <hint/>
+            <label>Subject</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-09 14:21:13</sys_created_on>
+            <sys_id>c1477af4db7f101066f3146139961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Subject</sys_name>
+            <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_subject_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

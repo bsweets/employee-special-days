@@ -78,7 +78,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:14</sys_updated_on>
         <value>x_snc_employee_spe_occasions</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -92,7 +92,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:14</sys_updated_on>
         <value>active=false</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=55477af4db7f101066f314613996194a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -165,7 +165,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:14</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=91477af4db7f101066f3146139961951"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -224,7 +224,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <value>receive_type=reply^body_textLIKEtoday is not^ORbody_textLIKEincorrect date^ORbody_textLIKEwrong date</value>
-        <variable display_value="">18010347c7312300f4eba1425a9763f7</variable>
+        <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -238,7 +238,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <value>x_snc_employee_spe_occasions</value>
-        <variable display_value="">b914874853132300eb7c0a1806dc34b5</variable>
+        <variable display_value="Target table">b914874853132300eb7c0a1806dc34b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -252,7 +252,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <value/>
-        <variable display_value="">60b307c7c7312300f4eba1425a97637e</variable>
+        <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=50e63814db73101066f31461399619cd^sys_idNOT IN9ce63814db73101066f31461399619ce"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -872,7 +872,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:14</sys_updated_on>
         <value>x_snc_employee_spe_occasions</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -886,7 +886,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:14</sys_updated_on>
         <value>active=false</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=55477af4db7f101066f314613996194a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -959,7 +959,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:14</sys_updated_on>
         <value>incident</value>
-        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=91477af4db7f101066f3146139961951"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1000,11 +1000,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>01477af4db7f101066f3146139961936</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
@@ -1023,11 +1023,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>49477af4db7f101066f3146139961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_target_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
@@ -1046,11 +1046,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>4d477af4db7f101066f314613996193a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Record</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_target_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
@@ -1069,11 +1069,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>81477af4db7f101066f3146139961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Inbound Email</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_inbound_email_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
@@ -1092,11 +1092,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>85477af4db7f101066f314613996192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body Text</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_body_text_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
@@ -1115,11 +1115,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>89477af4db7f101066f314613996193f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From address</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_from_address_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
@@ -1138,11 +1138,11 @@
         <sys_created_on>2020-10-09 14:21:13</sys_created_on>
         <sys_id>c1477af4db7f101066f3146139961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Subject</sys_name>
         <sys_package display_value="Employee Special Days" source="x_snc_employee_spe">c69feae6dbf1b700d7b55995ce961921</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Special Days">c69feae6dbf1b700d7b55995ce961921</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_50e63814db73101066f31461399619cd_subject_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-10-09 14:21:13</sys_updated_on>
         <url/>
